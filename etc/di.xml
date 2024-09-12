@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Checkout\CustomerData\Cart">
+        <plugin name="add_discount" type="Chandan\DiscountOnMiniCart\Plugin\AddDiscountPlugin" sortOrder="1"/>
+    </type>
+</config>
