@@ -8,3 +8,23 @@
         </span>
     </div>
 </div>
+<div class="subtotal">
+    <span class="label">
+        <!-- ko i18n: 'Grand Total (Inc. Tax)' --><!-- /ko -->
+    </span>
+    <div class="amount">
+        <span class="price-wrapper">
+            <span class="price" data-bind="html: getGrandTotalWithTax()"></span>
+        </span>
+    </div>
+</div>
+<div class="subtotal">
+    <span class="label">
+        <!-- ko i18n: 'Grand Total (Ex. Tax)' --><!-- /ko -->
+    </span>
+    <div class="amount">
+        <span class="price-wrapper">
+            <span class="price" data-bind="html: getGrandTotalWithoutTax()"></span>
+        </span>
+    </div>
+</div>
